@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asia Lane Contact Support</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="/images/ico/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Klik Untuk Kembali</a>
+                </li>
+
+            </ul>
+        </nav>
+        <form action="" id="contactForm">
+            <div class="alert">Pesan Telah Terkirim</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Nama Kamu" />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Email Kamu" />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Jelaskan apa Kendala Yang Kamu Alami"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
